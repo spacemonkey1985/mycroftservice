@@ -1,0 +1,65 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Mycroft Service</title>
+<script src="AC_OETags.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 8;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+<body bgcolor="#354c5b">
+<center>
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check based upon the values entered above in "Globals"
+var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+// Check to see if the version meets the requirements for playback
+if (hasReqestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+				"src", "FS",
+				"width", "800",
+				"height", "646",
+				"align", "middle",
+				"id", "mycroftFlashSite",
+				"quality", "high",
+				"bgcolor", "#354c5b",
+				"name", "detectionExample",
+				"allowScriptAccess","sameDomain",
+				"type", "application/x-shockwave-flash",
+				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else {  // flash is too old or we can't detect the plugin
+	//alert("dargh!");
+	window.location = "http://www.mycroftservice.com/html/welcome.html";
+	//var alternateContent = 'Alternate HTML content should be placed here.<BR>'
+	//+ 'This content requires the Adobe Flash Player. '
+	//+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+	//document.write(alternateContent);  // insert non-flash content
+}
+// -->
+</script>
+<noscript>
+  	<font face="Verdana, Geneva, sans-serif" color="#FFFFFF" size="-1">Please click <a href="http://www.mycroftservice.com/html/welcome.html" style="color:#FFF;">here</a> to enter the plain HTML version</font><br />
+</noscript>
+<!-- <embed src="FS.swf" quality="high" bgcolor="#354c5b" width="800" height="646" name="FS" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
+<br />
+<div style="text-align: center;"><img src="http://www.freecountercode.com/hit_counters_3895212.png" alt="Hit Counter" ></div>
+<br />
+<font face="Verdana, Geneva, sans-serif" color="#FFFFFF" size="-4">Please click <a href="http://www.mycroftservice.com/html/welcome.html" style="color:#FFF;">here</a> to enter the plain HTML version</font><br />
+</center>
+</body>
+</html>
